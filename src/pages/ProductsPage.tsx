@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Section from '../components/Section';
-import { PRODUCTS, BUSINESS_INFO } from '../data/constants';
+import { PRODUCTS, BUSINESS_INFO } from '@/data/constants';
 import Button from '../components/Button';
 import { Filter, MessageCircle, Globe, ChevronRight, PackageCheck } from 'lucide-react';
 

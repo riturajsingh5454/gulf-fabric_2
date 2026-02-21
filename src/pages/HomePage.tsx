@@ -67,7 +67,7 @@ const HomePage: React.FC = () => {
                 whileInView={{ opacity: 1, scale: 1 }}
                 className="rounded-[2.5rem] overflow-hidden shadow-2xl aspect-square border-8 border-white"
               >
-                <img src="img-19.png" alt="Mechanism" className="w-full h-full object-cover" />
+                <img src="img-19.jpeg" alt="Mechanism" className="w-full h-full object-cover" />
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, scale: 0.9 }}
@@ -75,7 +75,7 @@ const HomePage: React.FC = () => {
                 transition={{ delay: 0.2 }}
                 className="rounded-[2.5rem] overflow-hidden shadow-2xl aspect-square mt-12 border-8 border-white"
               >
-                <img src="img-10.png" alt="Fabrication" className="w-full h-full object-cover" />
+                <img src="img-10.jpeg" alt="Fabrication" className="w-full h-full object-cover" />
               </motion.div>
             </div>
             {/* Absolute badge */}
