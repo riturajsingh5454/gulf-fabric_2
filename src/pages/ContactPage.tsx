@@ -99,10 +99,10 @@ const ContactPage: React.FC = () => {
             <div className="p-8 bg-white rounded-3xl border border-gray-100 shadow">
               <div className="flex items-center gap-4 mb-4">
                 <Globe2 className="text-primary" />
-                <h4 className="font-bold text-xl">International Sales</h4>
+                <h4 className="font-bold text-xl">Multiple Country  Sales</h4>
               </div>
               <p className="text-gray-500 mb-4">
-                Dedicated export support worldwide.
+                Dedicated export and Multiple Country.
               </p>
               <a
                 href={`mailto:${BUSINESS_INFO.email}`}
@@ -180,8 +180,8 @@ const ContactPage: React.FC = () => {
                 <option value="">Select Region</option>
                 <option>Middle East (GCC)</option>
                 <option>European Union</option>
-                <option>South East Asia</option>
-                <option>North America</option>
+                <option>South East India</option>
+                <option>North India</option>
                 <option>India</option>
               </select>
 

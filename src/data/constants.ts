@@ -1,5 +1,9 @@
 import { Product, Testimonial, TimelineEvent, GalleryItem, SocialLink } from '../types';
 
+// ======================================================
+// BUSINESS INFO
+// ======================================================
+
 export const BUSINESS_INFO = {
   name: 'Gulf Fabrication',
   tagline: 'Global Leader in FRP Engineering & Thematic Manufacturing',
@@ -16,6 +20,10 @@ export const BUSINESS_INFO = {
   }
 };
 
+// ======================================================
+// SOCIAL LINKS
+// ======================================================
+
 export const SOCIAL_LINKS: SocialLink[] = [
   { platform: 'Instagram', url: '#' },
   { platform: 'LinkedIn', url: '#' },
@@ -23,8 +31,11 @@ export const SOCIAL_LINKS: SocialLink[] = [
   { platform: 'WhatsApp', url: `https://wa.me/${BUSINESS_INFO.whatsapp}` },
 ];
 
+// ======================================================
+// PRODUCTS (IMAGE SOURCE)
+// ======================================================
+
 export const PRODUCTS: Product[] = [
-  // PLAY SYSTEMS
   { id: 'p-0', title: 'Grand Multi-Play Complex', category: 'Play Systems', description: 'Commercial-grade playground system with UV-stabilized slides and heavy-duty steel structural frames.', imageUrl: '/img-0.jpeg' },
   { id: 'p-1', title: 'Thematic Pavilion Slide', category: 'Play Systems', description: 'Spiral chute system with castle-themed guardrails for premium educational institutes.', imageUrl: '/img-1.jpeg' },
   { id: 'p-3', title: 'Tri-Color Racing Slide', category: 'Play Systems', description: 'High-capacity straight slide modules designed for public parks and water resorts.', imageUrl: '/img-3.jpeg' },
@@ -38,39 +49,115 @@ export const PRODUCTS: Product[] = [
   { id: 'p-26', title: 'Outdoor Swing Set', category: 'Play Systems', description: 'Durable red and yellow swing set for community parks.', imageUrl: '/img-26.jpeg' },
   { id: 'p-28', title: 'Penguin Kiddy Ride', category: 'Play Systems', description: 'Thematic character ride module for preschools.', imageUrl: '/img-28.jpeg' },
 
-  // ART & STATUES
-  { id: 's-4', title: 'Kangaroo Waste Bins', category: 'Art & Statues', description: 'Creative kangaroo-shaped dustbins with automotive-grade glossy finishes.', imageUrl: '/img-4.jpeg' },
-  { id: 's-17', title: 'Life-Size Giraffe Statuary', category: 'Art & Statues', description: 'Hand-painted fiberglass giraffes for premium botanical gardens.', imageUrl: '/img-17.jpeg' },
-  { id: 's-22', title: 'Thematic Penguin Bin', category: 'Art & Statues', description: 'Charismatic penguin-shaped bin designed to encourage public hygiene.', imageUrl: '/img-22.jpeg' },
-  { id: 's-27', title: 'Master Chef Statue', category: 'Art & Statues', description: 'Iconic hospitality sculpture for fine dining entrances.', imageUrl: '/img-27.jpeg' },
-  { id: 's-32', title: 'Guardian Lion Monument', category: 'Art & Statues', description: 'Detailed royal lion sculpture for gate pillars.', imageUrl: '/img-32.jpeg' },
-  { id: 's-44', title: 'Grand Minnie Statuary', category: 'Art & Statues', description: 'Large-format character statue with intricate paint detailing.', imageUrl: '/img-44.jpeg' },
-
-  // PLANTERS
-  { id: 'pl-2', title: 'Gold-Striped Regency Vases', category: 'Planters', description: 'Premium white ceramic-look FRP planters with metallic gold detailing.', imageUrl: '/img-2.jpeg' },
-  { id: 'pl-6', title: 'Geometric Industrial Pots', category: 'Planters', description: 'Modern rectangular planters in varied finishes.', imageUrl: '/img-6.jpeg' },
-  { id: 'pl-12', title: 'Pink Ribbed Pillar Pot', category: 'Planters', description: 'Textured designer planter for high-end retail.', imageUrl: '/img-12.jpeg' },
-  { id: 'pl-13', title: 'Luxury Oval Basin Pots', category: 'Planters', description: 'Seamless white oval planters for contemporary garden decor.', imageUrl: '/img-13.jpeg' },
-  { id: 'pl-14', title: 'Teardrop Art Vases', category: 'Planters', description: 'Sculptural matte-finish planters designed for luxury corridors.', imageUrl: '/img-14.jpeg' },
-  { id: 'pl-16', title: 'White Ribbed Round Planters', category: 'Planters', description: 'Classic ribbed design for indoor and outdoor use.', imageUrl: '/img-16.jpeg' },
 
   // INFRASTRUCTURE
-  { id: 'i-15', title: 'Portable Site Sanitation', category: 'Infrastructure', description: 'Self-contained FRP portable toilet unit with integrated plumbing.', imageUrl: '/img-15.jpeg' },
-  { id: 'i-29', title: 'Security Observation Cabin', category: 'Infrastructure', description: 'Insulated, all-weather guard cabin with high-impact windows.', imageUrl: '/img-29.jpeg' },
-  { id: 'i-10', title: 'Geometric Relief Door', category: 'Infrastructure', description: 'Termite-proof, sound-dampening FRP door system.', imageUrl: '/img-10.jpeg' },
+   { id: 'i-15', title: 'Portable Site Sanitation', category: 'Infrastructure', description: 'Self-contained FRP portable toilet unit with integrated plumbing.', imageUrl: '/img-15.jpeg' },
+    { id: 'i-29', title: 'Security Observation Cabin', category: 'Infrastructure', description: 'Insulated, all-weather guard cabin with high-impact windows.', imageUrl: '/img-29.jpeg' }, 
+    { id: 'i-10', title: 'Geometric Relief Door', category: 'Infrastructure', description: 'Termite-proof, sound-dampening FRP door system.', imageUrl: '/img-10.jpeg' },
 
-  // FURNITURE & EVENTS
-  { id: 'f-5', title: 'Modular Canteen Seating', category: 'Furniture', description: 'Fixed table-and-bench system for high-capacity dining halls.', imageUrl: '/img-5.jpeg' },
-  { id: 'f-11', title: 'Classroom School Bench', category: 'Furniture', description: 'Ergonomic dual-seater benches with high-durability surfaces.', imageUrl: '/img-11.jpeg' },
-  { id: 'e-9', title: 'Architectural Stage Backdrop', category: 'Event Decor', description: 'Ornate relief panels for events and exhibitions.', imageUrl: '/img-9.jpeg' },
-  { id: 'e-23', title: 'Imperial Roman Archway', category: 'Event Decor', description: 'Modular pillar and arch system for grand entryways.', imageUrl: '/img-23.jpeg' },
-  { id: 'e-24', title: 'Gold Royal Entrance Gate', category: 'Event Decor', description: 'Traditional ornate entrance system with premium gold-finish relief work.', imageUrl: '/img-24.jpeg' }
+
+  //  PLANTERS 
+
+   { id: 'pl-2', title: 'Gold-Striped Regency Vases', category: 'Planters', description: 'Premium white ceramic-look FRP planters with metallic gold detailing.', imageUrl: '/img-2.jpeg' },
+    { id: 'pl-6', title: 'Geometric Industrial Pots', category: 'Planters', description: 'Modern rectangular planters in varied finishes.', imageUrl: '/img-6.jpeg' },
+     { id: 'pl-12', title: 'Pink Ribbed Pillar Pot', category: 'Planters', description: 'Textured designer planter for high-end retail.', imageUrl: '/img-12.jpeg' }, 
+     { id: 'pl-13', title: 'Luxury Oval Basin Pots', category: 'Planters', description: 'Seamless white oval planters for contemporary garden decor.', imageUrl: '/img-13.jpeg' }, 
+     { id: 'pl-14', title: 'Teardrop Art Vases', category: 'Planters', description: 'Sculptural matte-finish planters designed for luxury corridors.', imageUrl: '/img-14.jpeg' },
+      { id: 'pl-16', title: 'White Ribbed Round Planters', category: 'Planters', description: 'Classic ribbed design for indoor and outdoor use.', imageUrl: '/img-16.jpeg' },
+
+
+
+   // FURNITURE & EVENTS
+    { id: 'f-5', title: 'Modular Canteen Seating', category: 'Furniture', description: 'Fixed table-and-bench system for high-capacity dining halls.', imageUrl: '/img-5.jpeg' },
+     { id: 'f-11', title: 'Classroom School Bench', category: 'Furniture', description: 'Ergonomic dual-seater benches with high-durability surfaces.', imageUrl: '/img-11.jpeg' },
+      { id: 'e-9', title: 'Architectural Stage Backdrop', category: 'Event Decor', description: 'Ornate relief panels for events and exhibitions.', imageUrl: '/img-9.jpeg' },
+       { id: 'e-23', title: 'Imperial Roman Archway', category: 'Event Decor', description: 'Modular pillar and arch system for grand entryways.', imageUrl: '/img-23.jpeg' }, 
+       { id: 'e-24', title: 'Gold Royal Entrance Gate', category: 'Event Decor', description: 'Traditional ornate entrance system with premium gold-finish relief work.', imageUrl: '/img-24.jpeg' },
+   
+
+
+
+       // ART & STATUES
+        { id: 's-4', title: 'Kangaroo Waste Bins', category: 'Art & Statues', description: 'Creative kangaroo-shaped dustbins with automotive-grade glossy finishes.', imageUrl: '/img-4.jpeg' }, 
+        { id: 's-17', title: 'Life-Size Giraffe Statuary', category: 'Art & Statues', description: 'Hand-painted fiberglass giraffes for premium botanical gardens.', imageUrl: '/img-17.jpeg' }, 
+        { id: 's-22', title: 'Thematic Penguin Bin', category: 'Art & Statues', description: 'Charismatic penguin-shaped bin designed to encourage public hygiene.', imageUrl: '/img-22.jpeg' }, 
+        { id: 's-27', title: 'Master Chef Statue', category: 'Art & Statues', description: 'Iconic hospitality sculpture for fine dining entrances.', imageUrl: '/img-27.jpeg' }, 
+        { id: 's-32', title: 'Guardian Lion Monument', category: 'Art & Statues', description: 'Detailed royal lion sculpture for gate pillars.', imageUrl: '/img-32.jpeg' }, 
+        { id: 's-44', title: 'Grand Minnie Statuary', category: 'Art & Statues', description: 'Large-format character statue with intricate paint detailing.', imageUrl: '/img-44.jpeg' },
 ];
+
+// ======================================================
+// VIDEO SOURCE (ADD MORE WHEN NEEDED)
+// ======================================================
+
+export const GALLERY_VIDEOS: GalleryItem[] = [
+  {
+    id: 'v-1',
+    type: 'video',
+    url: '/videos/factory-tour.mp4',
+    thumbnail: '/videos/thumbs/factory-tour.jpeg',
+    title: 'Factory Production Line',
+    location: 'Manufacturing Center',
+    category: 'Production'
+  },
+  {
+    id: 'v-2',
+    type: 'video',
+    url: '/videos/product-demo.mp4',
+    thumbnail: '/videos/thumbs/product-demo.jpeg',
+    title: 'Product Demo Walkthrough',
+    location: 'Showroom',
+    category: 'Demo'
+  }
+];
+
+// ======================================================
+// 🔥 FINAL MERGED GALLERY (SENIOR PATTERN)
+// ======================================================
+
+export const GALLERY_ITEMS: GalleryItem[] = [
+  // Images from products
+  ...PRODUCTS.map((p) => ({
+    id: `g-${p.id}`,
+    type: 'image' as const,
+    url: p.imageUrl,
+    thumbnail: p.imageUrl,
+    title: p.title,
+    location: 'Manufacturing Center',
+    category: p.category
+  })),
+
+  // Videos
+  ...GALLERY_VIDEOS
+  
+];
+
+// ======================================================
+// TESTIMONIALS
+// ======================================================
 
 export const TESTIMONIALS: Testimonial[] = [
-  { id: '1', name: 'Khalid Al-Hajri', role: 'Real Estate Developer, GCC', content: 'The playground systems delivered were beyond expectations. The engineering quality meets international standards perfectly.', image: 'https://i.pravatar.cc/100?u=khalid' },
-  { id: '2', name: 'Binod Tamang', role: 'Resort Owner, Nepal', content: 'Gulf Fabrication delivered 40 sets of aquatic slides on schedule. Their export logistics are highly professional.', image: 'https://i.pravatar.cc/100?u=binod' },
+  {
+    id: '1',
+    name: 'Khalid Al-Hajri',
+    role: 'Real Estate Developer, GCC',
+    content:
+      'The playground systems delivered were beyond expectations. The engineering quality meets international standards perfectly.',
+    image: 'https://i.pravatar.cc/100?u=khalid'
+  },
+  {
+    id: '2',
+    name: 'Binod Tamang',
+    role: 'Resort Owner, Nepal',
+    content:
+      'Gulf Fabrication delivered 40 sets of aquatic slides on schedule. Their export logistics are highly professional.',
+    image: 'https://i.pravatar.cc/100?u=binod'
+  }
 ];
+
+// ======================================================
+// TIMELINE
+// ======================================================
 
 export const TIMELINE: TimelineEvent[] = [
   { year: '2008', title: 'Inception', description: 'Established as a specialist in composite fabrication for industrial components.' },
@@ -78,12 +165,19 @@ export const TIMELINE: TimelineEvent[] = [
   { year: '2023', title: 'Innovation Hub', description: 'Introduction of modular infrastructure and high-precision thematic molding.' },
 ];
 
-export const GALLERY_ITEMS: GalleryItem[] = PRODUCTS.map((p) => ({
-  id: `g-${p.id}`,
-  type: 'image',
-  url: p.imageUrl,
-  thumbnail: p.imageUrl,
-  title: p.title,
-  location: 'Manufacturing Center',
-  category: p.category
-}));
+// export const TESTIMONIALS: Testimonial[] = [ { id: '1', name: 'Khalid Al-Hajri', role: 'Real Estate Developer, GCC', content: 'The playground systems delivered were beyond expectations. The engineering quality meets international standards perfectly.',
+//    image: 'https://i.pravatar.cc/100?u=khalid' }, { id: '2',
+//      name: 'Binod Tamang', role: 'Resort Owner, Nepal', 
+//      content: 'Gulf Fabrication delivered 40 sets of aquatic slides on schedule. Their export logistics are highly professional.', 
+//      image: 'https://i.pravatar.cc/100?u=binod' }, ];
+//       export const TIMELINE: TimelineEvent[] = [ { year: '2008', title: 'Inception',
+//          description: 'Established as a specialist in composite fabrication for industrial components.' }, 
+//          { year: '2015', title: 'Global Expansion', description: 'Launched dedicated export centers to serve Europe and the GCC region.' },
+//           { year: '2023', title: 'Innovation Hub', description: 'Introduction of modular infrastructure and high-precision thematic molding.' },
+//          ];
+
+
+
+// sdfghhh----------------------xcvbn--------------xcvb-----------------------------------------xcvbn-------------------
+
+
